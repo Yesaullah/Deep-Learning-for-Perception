@@ -1,12 +1,5 @@
 # Assignment Three - Image Colorization
 
-## Instructions Compliance
-
-- Implemented both provided notebooks:
-  - `colour_regression.ipynb` (regression colorization)
-  - `colourization.ipynb` (classification colorization + UNet skip connections)
-- Code and analysis are organized to match all required assignment sections.
-
 ## 1) Convolutional Neural Network for Image Colorization
 
 Dataset used: CIFAR-10 (horse category only), with `32x32` RGB images and grayscale inputs.
@@ -177,5 +170,4 @@ Because these models are fully convolutional (no fully connected layers), they c
   - `outputs/colourization_cnn`
   - `outputs/colourization_unet`
 - Activation visualizations generated for both CNN and UNet (`act0` folders).
-- Final step: export this report to PDF for submission.
 
